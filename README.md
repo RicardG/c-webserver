@@ -4,9 +4,9 @@ This project is a semi-functioning webserver written entirely in C. Its main pur
 ## How to use
 Running this project requires only 3 steps
 1. Build the webserver on your machine using the provided make file\
-$`make`
+`$ make`
 2. Run the webserver. By default it will bind to the HTTP port (80). This can be changed in webserver.h, but you will need to rebuild the server each time you do it.\
-$`./WebServer`
+`$ ./WebServer`
 3. Connect to the webserver. If you ran the server on your current machine you can access it using your preferred web browser at http://localhost.
 
 ## I don't like the provided webpages and want to provide my own
